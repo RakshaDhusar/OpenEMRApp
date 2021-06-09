@@ -66,7 +66,7 @@ public class PatientTest extends WebDriverWrapper {
 		//no need to move to any page objects
 		//assertion on alertbox and added patient detail
 		Assert.assertTrue(actualAlertText.contains("New Due Clinical Reminders"));// must be true
-		Assert.assertEquals(actualValue, "Medical Record Dashboard - ");// must be Medical Record Dashboard - Bala Dina
+		Assert.assertEquals(actualValue, "Medical Record Dashboard - Rak");// must be Medical Record Dashboard - Bala Dina
 																					
 	}
 
